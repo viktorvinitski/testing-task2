@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="clickRadio.js"></script>
+    <script src="changePicture.js"></script>
 </head>
 
 <body>
@@ -113,31 +114,31 @@
         <div class="card1">
             <img src="одностворчатое.jpg" alt="">
             <div>
-                <a href="">Одностворчатое</a>
+                <a href="##" onclick=plus1()>Одностворчатое</a>
             </div>
         </div>
         <div class="card2">
             <img src="двустворчатое.jpg" alt="">
             <div>
-                <a href="">Двустворчатое</a>
+                <a href="##" onclick=plus2()>Двустворчатое</a>
             </div>
         </div>
         <div class="card3">
             <img src="трехстворчатое.jpg" alt="">
             <div>
-                <a href="">Трехстворчатое</a>
+                <a href="##" onclick=plus3()>Трехстворчатое</a>
             </div>
         </div>
         <div class="card4">
             <img src="балконный-блок.jpg" alt="">
             <div>
-                <a href="">Балконный блок</a>
+                <a href="##" onclick=plus4()>Балконный блок</a>
             </div>
         </div>
         <div class="card5">
             <img src="остекление-балкона.jpg" alt="">
             <div>
-                <a href="">Остекление балкона</a>
+                <a href="##" onclick=plus5()>Остекление балкона</a>
             </div>
         </div>
     </div>
@@ -148,7 +149,7 @@
             <div class="window-size">
                 <div class="text-width">ширина</div>
                 <div class="text-height">высота</div>
-                <div class="window"></div>
+                <div class="window" id="pic"></div>
                 <div class="size">
                     <input type="text">
                     <div class="x"><img src="х.jpg" alt=""></div>

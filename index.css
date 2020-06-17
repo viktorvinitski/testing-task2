@@ -300,6 +300,7 @@ h5{
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
+    padding-left: 20px;
 }
 
 .calc-buttons .button1{
